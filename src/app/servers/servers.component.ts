@@ -9,7 +9,7 @@ import { ConsoleReporter } from 'jasmine';
 export class ServersComponent implements OnInit {
   allowNewServer: boolean = false;
   serverCreationStatus = 'No server was created!';
-  serverName = '';
+  serverName = 'Testserver';
 
   constructor() {
     setTimeout(() => {
